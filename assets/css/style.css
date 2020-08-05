@@ -3466,15 +3466,17 @@ hero-btn {
 
 /* line 37, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(../img/hero/hero2.jpg);
+  position: relative;
+  background-image: url(../img/hero/w2.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
 /* line 43, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   position: relative;
-  background-image: url(../img/hero/h1_hero.jpg);
+  background-image: url(../img/hero/w1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
