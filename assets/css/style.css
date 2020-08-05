@@ -3402,7 +3402,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  height: 1050px;
+  height: 100vh;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3535,13 +3535,12 @@ hero-btn {
 
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
-  font-size: 95px;
+  font-size: 50px;
   font-weight: 600;
-  margin-bottom: 14px;
   color: #fff;
-  line-height: 95px;
+  /*line-height: 95px;*/
   text-transform: capitalize;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
