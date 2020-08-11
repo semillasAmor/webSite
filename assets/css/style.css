@@ -3124,7 +3124,7 @@ hero-btn {
 
 /* line 84, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
 .black-bg {
-  background: #16161a;
+  background: #8a3052;
 }
 
 /* line 87, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
@@ -4323,7 +4323,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area {
-  background: #fff;
+  background: #8a3052;
   /* slick-dots button*/
   /* End slick-dots button*/
 }
@@ -4835,7 +4835,7 @@ hero-btn {
   font-size: 14px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 300;
-  color: #787878;
+  color: #000;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
