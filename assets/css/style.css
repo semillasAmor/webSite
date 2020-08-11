@@ -511,7 +511,7 @@ hr {
 
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .btn {
-  background: #f787bc;
+  background: #fff;
   padding: 27px 44px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
@@ -543,8 +543,8 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #fff;
-  color: #000 !important;
+  background: #8a3052;
+  color: #fff !important;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -557,7 +557,7 @@ hr {
 /* line 290, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .btn:hover::before {
   transform: scaleX(1);
-  color: #000000 !important;
+  color: #fff !important;
   z-index: -1;
 }
 
