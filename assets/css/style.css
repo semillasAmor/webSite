@@ -218,7 +218,7 @@ h4,
 h5,
 h6 {
   font-family: "Barlow Condensed", sans-serif;
-  color: #fff;
+  color: #000;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -228,7 +228,7 @@ h6 {
 /* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 p {
   font-family: "Barlow", sans-serif;
-  color: #10285d;
+  color: #000;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
