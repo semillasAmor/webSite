@@ -3715,7 +3715,7 @@ hero-btn {
 
 /* line 211, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .video-icon a {
-  background: #ff1313;
+  background: #8a3052;
   color: #fff;
   width: 80px;
   height: 80px;
@@ -4785,7 +4785,7 @@ hero-btn {
   content: "";
   width: 75px;
   height: 3px;
-  background: #ff1313;
+  background: #8a3052;
   left: 0;
   top: 52%;
   transform: translateY(-50%);
