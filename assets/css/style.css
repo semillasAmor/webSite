@@ -4253,7 +4253,7 @@ hero-btn {
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a {
   color: #fff;
-  background: #ff0000;
+  background: #8a3052;
   width: 40px;
   height: 40px;
   display: block;
@@ -4266,7 +4266,7 @@ hero-btn {
 /* line 91, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a:hover {
   background: #fff;
-  color: #ff0000;
+  color: #8a3052;
 }
 
 /* line 101, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
@@ -4403,7 +4403,7 @@ hero-btn {
 
 /* line 54, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-img span {
-  color: #ff0000;
+  color: #8a3052;
   font-size: 18px;
   line-height: 1;
   display: block;
