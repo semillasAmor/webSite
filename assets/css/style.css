@@ -3061,21 +3061,19 @@ hero-btn {
 
 /* line 963, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .section-tittle.profession-details span {
-  color: #383838;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
 }
 
 /* line 969, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .section-tittle.profession-details h2 {
-  color: #000000;
-  margin-bottom: 25px;
+  color: #fff;
 }
 
 /* line 973, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .section-tittle.profession-details p {
-  color: #383838;
-  margin-bottom: 21px;
+  color: #fff;
   font-size: 20px;
 }
 
