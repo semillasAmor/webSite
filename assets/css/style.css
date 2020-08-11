@@ -4326,7 +4326,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
 .testimonial-area {
-  background: #11141b;
+  background: #fff;
   /* slick-dots button*/
   /* End slick-dots button*/
 }
@@ -4546,7 +4546,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area {
-  background: #8a30529e;
+  background: #8a3052;
 }
 
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
@@ -4581,7 +4581,7 @@ hero-btn {
 .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
   line-height: 1.8;
   margin-bottom: 30px;
-  color: #bdbdbd;
+  color: #fff;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4624,7 +4624,7 @@ hero-btn {
 
 /* line 52, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li {
-  color: #bdbdbd;
+  color: #fff;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
@@ -4657,7 +4657,7 @@ hero-btn {
 
 /* line 76, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-cap p {
-  color: #bdbdbd;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -4669,7 +4669,7 @@ hero-btn {
 
 /* line 89, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-bottom .footer-copy-right p {
-  color: #bdbdbd;
+  color: #fff;
   font-weight: 300;
   font-size: 16px;
   line-height: 2;
@@ -4752,7 +4752,7 @@ hero-btn {
 
 /* line 157, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-social a {
-  color: #bdbdbd;
+  color: #fff;
   font-size: 14px;
   text-align: center;
   margin-left: 16px;
