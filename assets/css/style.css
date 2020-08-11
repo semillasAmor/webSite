@@ -515,7 +515,7 @@ hr {
   padding: 27px 44px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -3919,7 +3919,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
 .services-area {
-  background: #13151b;
+  background: #efefef;
 }
 
 /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
@@ -4028,7 +4028,7 @@ hero-btn {
 
 /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
 .services-area .single-services:hover .services-caption {
-  background: #ff1313;
+  background: #efefef;
   transform: translateY(-40px);
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
