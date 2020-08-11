@@ -3017,7 +3017,7 @@ hero-btn {
 .section-tittle span {
   font-size: 16px;
   display: block;
-  color: #7e7e7e;
+  color: #000;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 17px;
@@ -4289,7 +4289,7 @@ hero-btn {
 
 /* line 12, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_team.scss */
 .single-team .team-caption span {
-  color: #959595;
+  color: #000;
   font-size: 16px;
   font-weight: 300;
   font-family: "Barlow Condensed", sans-serif;
