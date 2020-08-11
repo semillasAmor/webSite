@@ -3164,7 +3164,9 @@ hero-btn {
 /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .main-header {
   padding: 0 150px;
-  background-color: rgba(114, 28, 28, 0.3);
+  
+  background-color: #772242e0;
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
