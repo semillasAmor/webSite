@@ -1,583 +1,760 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Semillas de Amor</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/fav.ico">
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+
+  </style>
 </head>
 
-<body class="body-bg">
-<!--? Preloader Start -->
-<div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="assets/img/fav.ico" style="max-width: 60px" alt="">
-            </div>
-        </div>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <strong>MDB</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
+              download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fab fa-github mr-2"></i>MDB GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
-</div>
-<header>
-    <!-- Header Start -->
-    <div class="header-area header-transparent">
-        <div class="main-header header-sticky">
-            <div class="container-fluid">
-                <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a href="index.html"><img style="max-width: 120px" src="assets/img/logo1.png" alt=""></a>
-                    </div>
-                    <!-- Main-menu -->
-                    <div class="main-menu f-right d-none d-lg-block">
-                        <nav>
-                            <ul id="navigation">
-                                <li><a href="about.html">Inicio</a></li>
-                                <li><a href="about.html">Servicios</a>
-                                    <ul class="submenu">
-                                        <li><a href="blog.html">Neurodesarrollo</a></li>
-                                        <li><a href="blog_details.html">Prematuros y Familia</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Galeria</a></li>
-                                <li><a href="contact.html">Donaciones</a></li>
-                                <li><a href="contact.html">Contacto</a></li>
-                            </ul>
-                        </nav>
-                    </div>          
-                    <!-- Header-btn -->
-                    <div class="header-btns d-none d-lg-block f-right">
-                        <a href="#" class="btn ">Iniciar Sesion</a>
-                    </div>
-                    <!-- Mobile Menu -->
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
-                    </div>
-                </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and
+                  written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+                free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
             </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
         </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/47.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and
+                  written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+                free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/79.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and
+                  written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+                free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
     </div>
-    <!-- Header End -->
-</header>
-<main>
-    <!--? slider Area Start-->
-    <div class="slider-area">
-        <div class="slider-active dot-style">
-            <!-- Single Slider -->
-            <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".4s">Semillas de amor</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".6s">Un poco de ti... ¡Una esperanza para mi!</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--/.Slides-->
 
-            <!-- Single Slider -->
-            <div class="single-slider slider-height hero-overly d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay=".4s">Ayudando</span>
-                                <h1 data-animation="fadeInLeft" data-delay=".6s">El amor</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half"
+              alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
+            <p>This template is created with Material Design for Bootstrap (
+              <strong>MDB</strong> ) framework.</p>
+            <p>Read details below to learn more about MDB.</p>
+            <!-- Main heading -->
+
+            <hr>
+
+            <p>
+              <strong>400+</strong> material UI elements,
+              <strong>600+</strong> material icons,
+              <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
+              <strong>Free for personal and commercial use.</strong>
+            </p>
+
+            <!-- CTA -->
+            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-grey btn-md">Download
+              <i class="fas fa-download ml-1"></i>
+            </a>
+            <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-grey btn-md">Live
+              demo
+              <i class="far fa-image ml-1"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
         </div>
-        <!-- Video icon -->
-        <div class="video-icon">
-            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=UrGzbQ9teow"><i class="fas fa-play"></i></a>
-        </div>
-    </div>
-    <!-- slider Area End-->
+        <!--Grid row-->
 
+      </section>
+      <!--Section: Main info-->
 
-   
+      <hr class="my-5">
 
+      <!--Section: Main features & Quick Start-->
+      <section>
 
-     <!--? Professional Services Start -->
-    <div class="professional-services section-bg d-none d-md-block" data-background="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?cs=srgb&dl=pexels-fauxels-3184306.jpg&fm=jpg"></div>
-    <div class="profession-caption">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-8">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle profession-details">
-                            <span>Semillas de Amor, Fundación para Niños Prematuros, A.C.</span>
-                            <h2>¿Por que surge semillas de amor?</h2>
-                            <p>La Asociación nace como respuesta a la necesidad de prevenir, habílitar rehabílítar e intervenir secuelas discapacitantes en niños y niñas con factores de riesgo neurológico pre, peri y postnatal. Las fundadoras cuentan con más de 20 años de experiencia en intervenir trastornos específicos del neurodesarrollo que afectan el aprendizaje y la conducta de niños y niñas de 3 a 12 años.</p>
-                            <p>Semillas de amor se constituye ante el vacío que existe en México de intervención temprana y oportuna a niños/as prematuros , los cuales representan aproximadamente el 50% de los 500 mil niños/as que nacen cada año, considerados de riesgo neurológico de presentar secuelas discapacitantes.</p>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <a href="about.html" class="btn btn3">Donar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Professional Services End -->
-    <!-- our info End -->
-    <!--? Services Ara Start -->
-    <div class="services-area section-padding3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-70">
-                        <span>Equipo de Profesionales</span>
-                        <h2>Algunos de nuestros servicios</h2>
-                    </div> 
-                </div>
-            </div>
+        <h3 class="h3 text-center mb-5">About MDB</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-services mb-200">
-                        <div class="services-img">
-                            <img src="https://images.pexels.com/photos/1449934/pexels-photo-1449934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                            </div>
-                            <div class="services-caption">
-                            <h3><a href="services.html">Lighting</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-services mb-200">
-                        <div class="services-img">
-                            <img src="https://images.pexels.com/photos/1720186/pexels-photo-1720186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                            </div>
-                            <div class="services-caption">
-                            <h3><a href="services.html">Interior Design</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="single-services mb-200">
-                        <div class="services-img">
-                            <img src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                            </div>
-                            <div class="services-caption">
-                            <h3><a href="services.html">Office Decoretion</a></h3>
-                            <p class="pera1">For each project we establish </p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
-                        </div>
-                    </div>
-                </div>
+              <div class="col-1 mr-3">
+                <i class="fas fa-code fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Bootstrap 4</h5>
+                <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
+              </div>
             </div>
-        </div>
-    </div>
-    <!-- Services Ara End -->
-    <!--? Gallery Area Start -->
-    <div class="gallery-area">
-        <div class="container-fluid p-0 fix">
-            <div class="row">
-                <div class="col-xl-6 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                        <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/50692/brothers-family-siblings-boys-50692.jpeg?cs=srgb&dl=pexels-pixabay-50692.jpg&fm=jpg);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                        <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/296302/pexels-photo-296302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                            <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                        <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/1019470/abacus-mathematics-addition-subtraction-1019470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                        <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/1729927/pexels-photo-1729927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-4 col-md-6">
-                    <div class="single-gallery mb-30">
-                        <div class="gallery-img" style="background-image: url(https://images.pexels.com/photos/1490844/pexels-photo-1490844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
-                        <div class="thumb-content-box">
-                            <div class="thumb-content">
-                                <h3><span>Intorior</span>Burj Khalifa</h3>
-                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Gallery Area End -->
-    <!-- Team Start -->
-    <div class="team-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-70">
-                        <span>Gente común</span>
-                        <h2>Apoyando a personas extraordinarias</h2>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <!-- single Tem -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="https://images.pexels.com/photos/3845407/pexels-photo-3845407.jpeg?cs=srgb&dl=pexels-anna-shvets-3845407.jpg&fm=jpg" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="https://images.pexels.com/photos/3791129/pexels-photo-3791129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Jhon Sunsa</a></h3>
-                            <span>Creative derector</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-    <!-- Testimonial Start -->
-    <div class="testimonial-area testimonial-padding">
-        <div class="container">
-            <!-- Testimonial contents -->
-            <div class="row d-flex justify-content-center">
-                <div class="col-xl-8 col-lg-8 col-md-10">
-                    <div class="h1-testimonial-active dot-style">
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-caption ">
-                                <div class="testimonial-top-cap">
-                                    <img src="assets/img/gallery/testi-logo.png" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder  ">
-                                    <div class="founder-img">
-                                        <span><strong>Christine Eve</strong>   -   Co Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-caption ">
-                                <div class="testimonial-top-cap">
-                                    <img src="assets/img/gallery/testi-logo.png" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder  ">
-                                    <div class="founder-img">
-                                        <span><strong>Christine Eve</strong>   -   Co Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-    <!-- Brand Area Start -->
-    <div class="brand-area pt-120 pb-120">
-        <div class="container">
-            <div class="brand-active brand-border pt-50 pb-40">
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand1.png" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand2.png" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand3.png" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand4.png" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand2.png" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/gallery/brand5.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Brand Area End -->
-    <!-- Want To work -->
-    <section class="wantToWork-area w-padding2">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-8 col-lg-8 col-md-8">
-                    <div class="wantToWork-caption wantToWork-caption2">
-                        <h2>Are you Searching For a First-Class Consultant?</h2>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3">
-                    <a href="#" class="btn btn-black f-right">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Want To work End -->
-    <!-- Blog Area Start -->
-    <div class="home-blog-area section-padding30">
-        <div class="container">
-            <!-- Section Tittle -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-tittle text-center mb-70">
-                        <span>Our latest blog</span>
-                        <h2>Our recent news</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="https://images.pexels.com/photos/2173508/pexels-photo-2173508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                            </div>
-                            <ul>
-                                <li class="black-bg">October 27, 2020</li>
-                                <li>By Admin   -   30 Likes   -   4 Comments</li>
-                            </ul>
-                            <div class="blog-cap">
-                                <h3><a href="blog_details.html">16 Easy Ideas to Use Everyday
-                                    Stuff in Kitchen.</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="https://images.pexels.com/photos/1708936/pexels-photo-1708936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-                            </div>
-                            <ul>
-                                <li class="black-bg">October 27, 2020</li>
-                                <li>By Admin   -   30 Likes   -   4 Comments</li>
-                            </ul>
-                            <div class="blog-cap">
-                                <h3><a href="blog_details.html">16 Easy Ideas to Use Everyday
-                                    Stuff in Kitchen.</a></h3>
-                                <a href="blog_details.html" class="more-btn">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog Area End -->
+            <!--/First row-->
 
-</main>
-<footer>
-    <!--? Footer Start-->
-    <div class="footer-area footer-bg">
-        <div class="container">
-            <div class="footer-top footer-padding">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
-                        <div class="single-footer-caption mb-50">
-                            <!-- logo -->
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/logo1.png" alt="" style="max-width: 100%"></a>
-                            </div>
-                            <div class="footer-tittle">
-                                <div class="footer-pera">
-                                    <p class="info1">Semillas de Amor, Fundación para Niños Prematuros, A.C.</p>
-                                </div>
-                            </div>
-                            <div class="footer-number">
-                                <h4><span>+52 1 </span>55 5386 2086</h4>
-                                <p>contacto@semillasdeamor.org</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-2 col-md-5 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Ubicacion</h4>
-                            </div>
-                            <div class="footer-cap">
-                                <span>Ciudad de México, CDMX</span>
-                                <p>Felipe Carrillo Puerto 337, Popotla, Miguel Hidalgo, 11400</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <!-- Instagram -->
-                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Instagram Feed</h4>
-                            </div>
-                            <div class="instagram-gellay">
-                                <ul class="insta-feed">
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/4262185/pexels-photo-4262185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/225017/pexels-photo-225017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/1105191/pexels-photo-1105191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/998067/pexels-photo-998067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/1741230/pexels-photo-1741230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                    <li><a href="#"><img src="https://images.pexels.com/photos/1104014/pexels-photo-1104014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-book fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Detailed documentation</h5>
+                <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help
+                  you to implement your ideas
+                  easily.
+                </p>
+              </div>
             </div>
-            <div class="footer-bottom">
-                <div class="row d-flex justify-content-between align-items-center">
-                    <div class="col-xl-9 col-lg-8">
-                        <div class="footer-copy-right">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developer  <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.youtube.com/alexvachack" target="_blank">Root13</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4">
-                        <!-- Footer Social -->
-                        <div class="footer-social f-right">
-                            <span>Siguenos!</span>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Lots of tutorials</h5>
+                <p class="grey-text">We care about the development of our users. We have prepared numerous tutorials,
+                  which allow you to learn
+                  how to use MDB as well as other technologies.</p>
+              </div>
             </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+            </div>
+          </div>
+          <!--/Grid column-->
+
         </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+
+      <!--Section: Not enough-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Not enough?</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-md-4">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Free for personal and commercial use</h6>
+                <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as
+                  commercial projects.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">400+ UI elements</h6>
+                <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">600+ icons</h6>
+                <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Fully responsive</h6>
+                <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop,
+                  tablet or mobile phone. MDB
+                  looks great on each screen.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-4 flex-center">
+            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone"
+              class="z-depth-0 img-fluid">
+          </div>
+          <!--/Second column-->
+
+          <!--Third column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">70+ CSS animations</h6>
+                <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your
+                  project and delight your visitors.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Plenty of useful templates</h6>
+                <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Easy installation</h6>
+                <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Easy to use and customize</h6>
+                <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep
+                  customization. You will
+                  easily adjust each component to suit your needs.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--Section: Not enough-->
+
+      <hr class="mb-5">
+
+      <!--Section: More-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">...and even more</h2>
+
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2 pl-3">
+                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
+                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers;
+                  all browsers love MDB.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
+                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as
+                  possible.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Active community</h5>
+                <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a
+                  part of our family.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
+                <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest
+                  features which come along with
+                  it.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+
+        <!--Second row-->
+        <div class="row features-small mt-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Modularity</h5>
+                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use
+                  libraries including all features as
+                  well as modules for CSS (SASS files) and JS.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Technical support</h5>
+                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to
+                  contact us.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
+                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">SASS files</h5>
+                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Second row-->
+
+      </section>
+      <!--Section: More-->
+
     </div>
-    <!-- Footer End-->
-</footer>
-<!-- Scroll Up -->
-<div id="back-top" >
-    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-</div>
+  </main>
+  <!--Main layout-->
 
-<!-- JS here -->
-    <!-- All JS Custom Plugins Link Here here -->
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
+        role="button">Download MDB
+        <i class="fas fa-download ml-2"></i>
+      </a>
+      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
+        free tutorial
+        <i class="fas fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
 
-    <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
-    
-    <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
-    
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+        <i class="fab fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+        <i class="fab fa-codepen mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
 </body>
+
 </html>
